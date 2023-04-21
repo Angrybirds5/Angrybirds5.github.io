@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Monkey GIF Generator</title>
+	<script>
+		function getNewMonkeyGif() {
+			var monkeyGif = document.getElementById("monkey-gif");
+			var randomNum = Math.floor(Math.random() * 10) + 1; // generate a random number between 1-10
+			monkeyGif.src = "https://media.giphy.com/media/3o7TKoQ2QjW1FzgUA4/giphy-downsized-large.gif?id=" + randomNum; // update the GIF URL with the random number
+		}
+	</script>
+</head>
+<body>
+	<h1>Click the button for a new monkey GIF!</h1>
+	<button onclick="getNewMonkeyGif()">Get New GIF</button>
+	<img id="monkey-gif" src="https://media.giphy.com/media/3o7TKoQ2QjW1FzgUA4/giphy-downsized-large.gif" alt="monkey GIF">
+</body>
+</html>
