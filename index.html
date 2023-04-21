@@ -4,18 +4,27 @@
 	<title>Fact Generator</title>
 	<style>
 		body {
-			background-color: #F4F4F4;
+			background-image: url("https://cdn.pixabay.com/photo/2017/05/16/11/22/landscape-2315207_960_720.jpg");
+			background-size: cover;
+			background-position: center;
 			font-family: Arial, sans-serif;
 		}
 
 		h1 {
 			text-align: center;
 			margin-top: 50px;
+			color: #FFFFFF;
+			text-shadow: 2px 2px #333333;
 		}
 
 		.container {
 			margin: 50px auto;
 			text-align: center;
+			background-color: rgba(255, 255, 255, 0.8);
+			padding: 20px;
+			max-width: 600px;
+			border-radius: 10px;
+			box-shadow: 2px 2px 10px #333333;
 		}
 
 		button {
@@ -33,6 +42,7 @@
 			font-size: 18px;
 			color: #333333;
 			line-height: 1.5;
+			text-align: justify;
 		}
 	</style>
 	<script>
@@ -45,20 +55,19 @@
 				"A cockroach can live for several weeks without its head.",
 				"The world's oldest piece of chewing gum is over 9,000 years old.",
 				"A flea can jump up to 200 times its own body length.",
-				"Bananas are berries, but strawberries are not."
+				"Bananas are berries, but strawberries are not.",
+				"Metallica's 'Black Album' is the best selling album of the SoundScan era.",
+				"Iron Maiden's mascot Eddie has appeared on every one of the band's album covers.",
+				"Black Sabbath's original name was 'Earth'.",
+				"Judas Priest's song 'Breaking the Law' was inspired by a real-life event where Rob Halford's friend stole a car.",
+				"Slayer's song 'Raining Blood' has been covered by over 40 different artists.",
+				"AC/DC's album 'Back in Black' is one of the best selling albums of all time.",
+				"The band Motley Crue was originally called 'Christmas'.",
+				"Guns N' Roses' 'November Rain' is the longest song to ever reach the top 10 of the Billboard Hot 100 chart.",
+				"Metallica's 'One' was the first music video ever played on MTV Europe.",
+				"Ozzy Osbourne bit the head off a live bat during a concert in 1982.",
+				"The first heavy metal band to win a Grammy Award was Jethro Tull.",
+				"chatgpt is a very usefull tool."
 			];
 
-			var randomFact = facts[Math.floor(Math.random() * facts.length)]; // generate a random fact from the array
-			var factElement = document.getElementById("fact");
-			factElement.innerHTML = randomFact; // update the fact text with the new fact
-		}
-	</script>
-</head>
-<body>
-	<h1>Click the button for a new fact!</h1>
-	<div class="container">
-		<button onclick="getNewFact()">Get New Fact</button>
-		<p id="fact"></p>
-	</div>
-</body>
-</html>
+			var randomFact = facts[Math.floor(Math.random() * facts.length)]; // generate a random fact from the
