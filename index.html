@@ -1,18 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Monkey GIF Generator</title>
+	<title>Fact Generator</title>
+	<style>
+		body {
+			background-color: #F4F4F4;
+			font-family: Arial, sans-serif;
+		}
+
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+		}
+
+		.container {
+			margin: 50px auto;
+			text-align: center;
+		}
+
+		button {
+			background-color: #0099CC;
+			color: #FFFFFF;
+			font-size: 24px;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			cursor: pointer;
+		}
+
+		p {
+			margin-top: 20px;
+			font-size: 18px;
+			color: #333333;
+			line-height: 1.5;
+		}
+	</style>
 	<script>
-		function getNewMonkeyGif() {
-			var monkeyGif = document.getElementById("monkey-gif");
-			var randomNum = Math.floor(Math.random() * 10) + 1; // generate a random number between 1-10
-			monkeyGif.src = "https://media.giphy.com/media/3o7TKoQ2QjW1FzgUA4/giphy-downsized-large.gif?id=" + randomNum; // update the GIF URL with the random number
+		function getNewFact() {
+			var facts = [
+				"Elephants are the only mammals that can't jump.",
+				"A flamingo can only eat when its head is upside down.",
+				"The average person will spend six months of their life waiting for red lights to turn green.",
+				"The shortest war in history was between Zanzibar and the United Kingdom. Zanzibar surrendered after just 38 minutes.",
+				"A cockroach can live for several weeks without its head.",
+				"The world's oldest piece of chewing gum is over 9,000 years old.",
+				"A flea can jump up to 200 times its own body length.",
+				"Bananas are berries, but strawberries are not."
+			];
+
+			var randomFact = facts[Math.floor(Math.random() * facts.length)]; // generate a random fact from the array
+			var factElement = document.getElementById("fact");
+			factElement.innerHTML = randomFact; // update the fact text with the new fact
 		}
 	</script>
 </head>
 <body>
-	<h1>Click the button for a new monkey GIF!</h1>
-	<button onclick="getNewMonkeyGif()">Get New GIF</button>
-	<img id="monkey-gif" src="https://media.giphy.com/media/3o7TKoQ2QjW1FzgUA4/giphy-downsized-large.gif" alt="monkey GIF">
+	<h1>Click the button for a new fact!</h1>
+	<div class="container">
+		<button onclick="getNewFact()">Get New Fact</button>
+		<p id="fact"></p>
+	</div>
 </body>
 </html>
