@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Facts</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
 
+		h1 {
+			text-align: center;
+		}
+
+		ul {
+			max-width: 500px;
+			margin: 20px auto;
+			padding: 0;
+		}
+
+		li {
+			list-style: none;
+			margin: 10px 0;
+			padding: 10px;
+			border: 1px solid black;
+			border-radius: 5px;
+			background-color: #f2f2f2;
+		}
+	</style>
+</head>
+<body>
+	<h1>Food Facts</h1>
+	<ul>
+		<li>Honey is the only food that doesn't spoil.</li>
+		<li>Peanuts aren't technically nuts - they're legumes.</li>
+		<li>An average American eats around 23 pounds of pizza per year.</li>
+		<li>Carrots were originally purple, not orange.</li>
+		<li>The world's largest hamburger weighed over 3,000 pounds.</li>
+		<li>Mushrooms are more closely related to humans than they are to plants.</li>
+		<li>Cherries are a member of the rose family.</li>
+		<li>Apples float in water because they are 25% air.</li>
+		<li>The most expensive pizza in the world costs over $12,000.</li>
+		<li>Ketchup was originally used as a medicine.</li>
+	</ul>
+</body>
+</html>
