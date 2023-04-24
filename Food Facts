@@ -30,16 +30,29 @@
 <body>
 	<h1>Food Facts</h1>
 	<ul>
-		<li>Honey is the only food that doesn't spoil.</li>
-		<li>Peanuts aren't technically nuts - they're legumes.</li>
-		<li>An average American eats around 23 pounds of pizza per year.</li>
-		<li>Carrots were originally purple, not orange.</li>
-		<li>The world's largest hamburger weighed over 3,000 pounds.</li>
-		<li>Mushrooms are more closely related to humans than they are to plants.</li>
-		<li>Cherries are a member of the rose family.</li>
+		<li>Chocolate was originally used as a currency in ancient civilizations, such as the Aztecs and Mayans.</li>
+		<li>McDonald's is the world's largest distributor of toys, due to their inclusion in Happy Meals.</li>
 		<li>Apples float in water because they are 25% air.</li>
-		<li>The most expensive pizza in the world costs over $12,000.</li>
-		<li>Ketchup was originally used as a medicine.</li>
+		<li>The average American eats approximately 18 pounds of bacon per year.</li>
+		<li>Spam is a popular canned meat product that was first introduced in 1937.</li>
+		<li>Carrots were originally purple and were selectively bred to be orange in the 17th century.</li>
+		<li>The world's most expensive pizza costs $12,000 and is made with ingredients like lobster, caviar, and gold leaf.</li>
+		<li>In France, it is considered rude to ask for salt and pepper on the table as it implies that the chef did not season the dish properly.</li>
+		<li>The world's largest chocolate bar weighed over 12,000 pounds and was created in Armenia in 2010.</li>
+		<li>According to legend, tea was discovered in China when Emperor Shen Nong accidentally dropped tea leaves into boiling water over 4,000 years ago.</li>
+		<li>Cheddar cheese is the most popular cheese in the world and is named after the village of Cheddar in England.</li>
+		<li>There are over 7,500 varieties of apples grown around the world.</li>
+		<li>During World War II, margarine was used to fatten turkeys when butter was in short supply.</li>
+		<li>The world's largest pancake weighed 6,614 pounds and was made in Manchester, England in 1994.</li>
+		<li>The most popular ice cream flavor in the United States is vanilla.</li>
+		<li>Chickens are the most commonly eaten meat in the world, followed by pork and beef.</li>
+		<li>Before the 16th century, forks were not commonly used for eating and people ate with their hands or a spoon.</li>
+		<li>The world's largest sushi roll measured over 1 mile in length and was created in Russia in 2011.</li>
+		<li>One of the hottest peppers in the world is the Carolina Reaper, which measures an average of 1.57 million Scoville heat units.</li>
+		<li>Coca-Cola was originally marketed as a medicine and was sold in pharmacies.</li>
 	</ul>
+	<div style="text-align:center">
+		<a href="metal_facts.html">Next Page: Metal Facts</a>
+	</div>
 </body>
 </html>
